@@ -7,13 +7,18 @@ import Cubes from './components/Cubes';
 import Lights from './components/Lights';
 import Environment from './components/Environment';
 
+import './styles.css';
+
 function App() {
   return (
-    <Canvas>
-      {/* here you can pass a lot of options as props */}
-      <Children /> {/* any Threejs objects(mesh, group or whatever) */}
-      <Children /> {/* any Threejs objects(mesh, group or whatever) */}
-    </Canvas>
+    <>
+      <Credits />
+      <Canvas>
+        <Cubes />
+        <Lights />
+        <Environment />
+      </Canvas>
+    </>
   );
 }
 

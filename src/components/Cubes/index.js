@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import { useFrame } from 'react-three-fiber';
 import { map } from 'lodash';
+import { useFrame } from 'react-three-fiber';
 
 import Cube from './Cube';
 
