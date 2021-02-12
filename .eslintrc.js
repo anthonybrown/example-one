@@ -20,14 +20,15 @@ module.exports = {
     'valid-jsdoc': 0,
     'require-jsdoc': 0,
     'object-curly-spacing': 1,
+    indent: ['error', 2],
     'no-unused-vars': 1,
     'new-cap': 0,
     'prefer-template': 2,
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
     'react/jsx-first-prop-new-line': 'error',
-    'react/jsx-max-props-per-line': ['error', { maximum: 1 }],
+    'react/jsx-max-props-per-line': ['error', { maximum: 2 }],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 0,
   },
-}
+};
