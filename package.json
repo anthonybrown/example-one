@@ -1,0 +1,32 @@
+{
+  "name": "example-one",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "react-three-fiber",
+    "3D",
+    "declarative"
+  ],
+  "author": "Anthony Brown",
+  "license": "ISC",
+  "description": "react-three-fiber demo",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.2",
+    "react-three-fiber": "^5.3.18",
+    "styled-jsx": "^3.4.2",
+    "three": "^0.125.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
+}
