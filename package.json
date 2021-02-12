@@ -1,6 +1,6 @@
 {
   "name": "example-one",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
@@ -18,18 +18,16 @@
   "license": "ISC",
   "description": "react-three-fiber demo",
   "dependencies": {
-    "lodash": "^4.17.20",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "^4.0.2",
-    "react-three-fiber": "^5.3.18",
-    "styled-jsx": "^3.4.2",
-    "three": "^0.125.2"
+    "lodash": "4.17.15",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.1",
+    "react-three-fiber": "3.0.15",
+    "styled-jsx": "3.2.4",
+    "three": "0.111.0"
   },
   "devDependencies": {
-    "eslint": "^7.19.0",
-    "eslint-config-google": "^0.14.0",
-    "typescript": "^4.1.5"
+    "typescript": "3.3.3"
   },
   "browserslist": [
     ">0.2%",

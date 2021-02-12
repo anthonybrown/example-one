@@ -3,9 +3,14 @@ import React from 'react';
 export default () => {
   return (
     <div className="credits">
-      <a href="https://www.twitter.com/codemonky007">AB: @codemonky007</a>
-      <style jsx>
-        {`
+      <a
+        href="https://www.twitter.com/codemonky007"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        TW: @codemonky007
+      </a>
+      <style jsx>{`
         .credits {
           position: fixed;
           bottom: 30px;
@@ -13,16 +18,17 @@ export default () => {
           z-index: 10;
           color: white;
           font-family: 'Noto Sans JP', sans-serif;
-          font-size: 18px;
-          font-weight; 700;
+          font-size: 12px;
+          font-weight: 700;
+          letter-spacing: -0.02em;
           opacity: 0.5;
           transition: all 0.6s;
         }
+
         .credits:hover {
           opacity: 1;
         }
-      `}
-      </style>
+      `}</style>
     </div>
   );
 };

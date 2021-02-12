@@ -28,7 +28,6 @@ export default () => {
   // color
   const color = isHovered ? 0xe5d54d : isActive ? 0xf7e7e5 : 0xf95b3c;
 
-  // useEffect of the activeState
   useEffect(() => {
     isActiveRef.current = isActive;
   }, [isActive]);
