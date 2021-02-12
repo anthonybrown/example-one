@@ -10,4 +10,4 @@ something better, let me know!).
 I hope to keep learning about this amazing technology to build apps and experiences
 that captivate the audience and users of my applications and sites.
 
-You can view the project (here)[https://anthonybrown.github.io/example-one/]
+You can view the project [here](https://anthonybrown.github.io/example-one/)
