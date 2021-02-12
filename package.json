@@ -2,7 +2,10 @@
   "name": "example-one",
   "version": "1.2.0",
   "main": "src/index.js",
+  "homepage": "https://anthonybrown.github.io/example-one/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -18,6 +21,7 @@
   "license": "ISC",
   "description": "react-three-fiber demo",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "lodash": "4.17.15",
     "react": "16.8.6",
     "react-dom": "16.8.6",
